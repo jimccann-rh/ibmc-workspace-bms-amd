@@ -58,22 +58,3 @@ resource "ibm_compute_bare_metal" "host" {
 }
 
 
-#resource "ibm_compute_bare_metal" "quote_bms_id" {
-#  # Mandatory fields
-#  hostname      = var.name
-#  domain        = var.domain_name
-#  datacenter    = var.datacenter
-#  network_speed = var.network_speed
-#  quote_id = var.quote_id
-#
-#  # Optional fields
-#
-#  public_vlan_id         = var.public_vlan
-#  private_vlan_id        = var.private_vlan
-#  public_subnet          = var.public_subnet
-#  private_subnet         = var.private_subnet
-#  tags                   = var.tags
-#  #user_metadata   = ""
-#  #tags = []
-#}
-#
