@@ -1,2 +1,1 @@
-# ibmc-workspace-bms-amd
-AMD class
+# ibmc-workspace-bms
